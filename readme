@@ -1,0 +1,5 @@
+Head your ats files with:
+#include "share/atspre_staload.hats"
+
+And tell your c compiler to:
+-I<ats-freestanding-path> -D_ATS_CCOMP_HEADER_NONE_ -D_ATS_CCOMP_PRELUDE_NONE_ -D_ATS_CCOMP_EXCEPTION_NONE_ -D_ATS_CCOMP_PRELUDE_USER_=\"prelude.h\"
